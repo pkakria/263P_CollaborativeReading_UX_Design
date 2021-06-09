@@ -139,3 +139,8 @@ section.section2 h2{
     height: 345px;
     width: auto;
 }
+.users-pics img{
+    display: block;
+    height: 200px;
+    width: auto;
+}
