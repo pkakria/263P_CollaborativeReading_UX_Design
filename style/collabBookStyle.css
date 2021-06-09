@@ -3,8 +3,8 @@ header, section, footer, article, nav, figure, figcaption{
 }
 
 body {
-    color: #2f2f2f;
-    background-color:rgb(245, 247, 241);
+    color: #f7f3f3;
+    background-color:rgb(255, 255, 255);
     background-position: center;
     /* font-family: Georgia, Times, serif; */
     line-height: 1.4em;
@@ -15,17 +15,17 @@ body {
 .wrapper {
     width: 940px;
     margin: 50px auto 20px auto;
-    border: 2px solid #000000;
+    border: 2px solid #f0e9e9;
     background-color: #ffffff;
 }
 
 header{
-    background-color: rgb(201, 250, 250);
-    color: #daf3f3;
+    background-color: rgb(248, 252, 252);
+    color: #fcfcfc;
     padding-top: 30px;
     padding-left: 10px;
     min-height: 80px;
-    border: #69a9a9 3px solid;
+    border: #f8fcfc 3px solid;
   }
 
 header h1{
@@ -36,7 +36,7 @@ header h1{
 
 header h2{
     text-align: center; 
-    color: rgba(75, 207, 250,1.0);
+    color: rgb(11, 87, 114);
 }
 
 #firstSection img{
@@ -63,12 +63,12 @@ header h2{
 section.section2 h2{
     font-size: 30px;
     /* text-decoration-color: cadetblue"; */
-    color: cadetblue;
+    color: rgb(124, 31, 10);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #initIdea p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
     color: rgb(53, 47, 47);
 }
 
@@ -76,7 +76,7 @@ section.section2 h2{
 	opacity:0.8;
 	position: fixed;
 	top: 0;
-	background-color: rgba(87, 95, 207,1.0);
+	background-color: rgb(102, 39, 14);
 	padding: 15px 15px;
 	z-index: 100;
 	width: 100%;
