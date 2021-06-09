@@ -134,4 +134,8 @@ section.section2 h2{
     font-size: 75%;
 }
 
-
+.sketches-pics img{
+    display: block;
+    height: 345px;
+    width: auto;
+}
