@@ -13,9 +13,9 @@ body {
 }
 
 .wrapper {
-    width: 100vw;
+    width: 90vw;
     margin: 50px auto 20px auto;
-    border: 2px solid #f0e9e9;
+    /* border: 2px solid #f0e9e9; */
     background-color: #ffffff;
 }
 
