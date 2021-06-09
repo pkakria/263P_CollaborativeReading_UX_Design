@@ -48,7 +48,7 @@ header h2{
 }
 
 #firstSection p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
     text-decoration:double;
     text-align: left;
     /* p1{
@@ -64,7 +64,7 @@ section.section2 h2{
     font-size: 30px;
     /* text-decoration-color: cadetblue"; */
     color: rgb(124, 31, 10);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
 }
 
 #initIdea p{
