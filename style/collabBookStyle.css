@@ -102,3 +102,39 @@ section.section2 h2{
 	background: url(../images/menu.png) center center no-repeat;
 	background-size: 70%;
 }
+.pics_init{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.pics_final{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.PictureDiv{
+    padding-top: 20px;
+    /* height: 300px; */
+}
+
+.PictureDiv::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.PictureDiv img{
+    display: block;
+    width: 180px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.PictureDiv figcaption{
+    font-size: 75%;
+    margin-left: 50px;
+}
+
+
