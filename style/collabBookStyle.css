@@ -13,9 +13,9 @@ body {
 }
 
 .wrapper {
-    width: 940px;
+    width: 90vw;
     margin: 50px auto 20px auto;
-    border: 2px solid #f0e9e9;
+    /* border: 2px solid #f0e9e9; */
     background-color: #ffffff;
 }
 
@@ -43,8 +43,8 @@ header h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 400px;
+    width: 40vw;
+    height: auto;
 }
 
 #firstSection p{
@@ -91,9 +91,47 @@ section.section2 h2{
 }
 
 #navigation li a:hover {
-	color: #f5f6fa;
+	color: white;
 }
 
 .navbar-brand {
 	color: white;
 }
+
+.navbar-toggler {
+	background: url(../images/menu.png) center center no-repeat;
+	background-size: 70%;
+}
+.pics_init{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.pics_final{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.PictureDiv{
+    padding-top: 20px;
+}
+
+.PictureDiv::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.PictureDiv img{
+    display: block;
+    width: 180px;
+    height: 350px;
+}
+
+.PictureDiv figcaption{
+    font-size: 75%;
+}
+
+

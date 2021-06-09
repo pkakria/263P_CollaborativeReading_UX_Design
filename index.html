@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
       <meta charset="UTF-8" />
       <title>Nooshin's Website</title>
       <link rel="stylesheet" href="style/collabBookStyle.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- CSS only -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
@@ -17,9 +18,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
-            </li>
+            <li class="nav-item active">
+	            <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+	          </li>
             <li class="nav-item">
               <a class="nav-link" href="#CompetitorAnalysis">Competitors</a>
             </li>
@@ -41,7 +42,6 @@
         <h1 >UX/UI Design - CollaborativeReading App</h1>
         <h2><i>"Books are the most loyal and trusted friends you can ever have!"</i></h2>
         <!--<h3 style="color:rgb(53, 50, 50); font-size: 15px;" >This project has been designed as a part of 263P course</h3>-->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
       </header>
       <div id= "About">
         <section class="section1">
@@ -52,7 +52,7 @@
                   time and attention which is difficult to give when social life is disconnected from a digital
                   book reading experience. This leads to many unfinished books and less enthusiasm in
                   the habit of reading. Therefore, people might not be fully engaged in reading their
-                  books.<br></br>A system which could help users to provide an environment where they can share their thoughts on different book topics and
+                  books. <br/> A system which could help users to provide an environment where they can share their thoughts on different book topics and
                   have conversations with other book readers. Such an environment could help people
                   stay more focused on the book they are reading by making them more enthusiastic
                   about the reading activity.
@@ -105,13 +105,87 @@
         </div>
 
         <div id = "Prototypes">
+          <h2>Initial Prototypes</h2>
+            <div class="PictureDiv">
+              <div class="pics_init">
+                <figure id="pic1">
+                    <img src="images/HomePage_init.png" 
+                        alt="Screenshot from the main page of the application after login from initial design" />
+                    <figcaption>Our Initial design of our main page after log in</figcaption>
+                </figure>
+              </div>
+              
+              <div class="pics_init">
+                <figure id="pic2">
+                    <img src="images/myGroup_init.png" 
+                        alt="Screenshot from the My Group page of the application from initial design" />
+                    <figcaption>Our Initial design of our "My Group" page</figcaption>
+                </figure>
+              </div>
+
+              <div class="pics_init">
+                  <figure id="pic3">
+                      <img src="images/myBooks_init.png" 
+                          alt="Screenshot from the MyBook page which shows the list of the user's book from initial design" />
+                      <figcaption>Our Initial design of our "MyBook" page (formerly known as List of Books)</figcaption>
+                  </figure>
+              </div>
+
+              <div class="pics_init">
+                  <figure id="pic4">
+                      <img src="images/bookView_init.png" 
+                          alt="Screenshot from the Book View where users can read and add highlights or comments from initial design" />
+                      <figcaption>Our Initial design of our "Book View" page</figcaption>
+                  </figure>
+              </div>
+            </div>
+            <p>To look at the prototype of our initial design interactively, you can click on the link: 
+                <a href="https://www.figma.com/proto/innmEVcxPyrC9LQ6DgX4yM/User-Stories?page-id=0%3A1&node-id=56%3A49&scaling=scale-down" target="_blank">Initial Desing Prototype on Figma</a>  
+            </p>
+              
+
           <h2>Final Prototypes</h2>
-          <h2>Reflections</h2>
+          <div class="PictureDiv">
+              <div class="pics_final">
+                <figure id="picf1">
+                    <img src="images/HomePage_final.png" 
+                        alt="Screenshot from the main page of the application after login from final design" />
+                    <figcaption>Our final design of our main page after log in</figcaption>
+                </figure>
+              </div>
+              
+              <div class="pics_init">
+                <figure id="picf2">
+                    <img src="images/myGroup_final.png" 
+                        alt="Screenshot from the My Group page of the application from final design" />
+                    <figcaption>Our final design of our "My Group" page</figcaption>
+                </figure>
+              </div>
+
+              <div class="pics_init">
+                  <figure id="picf3">
+                      <img src="images/myBooks_final.png" 
+                          alt="Screenshot from the MyBook page which shows the list of the user's book from final design" />
+                      <figcaption>Our final design of our "MyBook" page (formerly known as List of Books)</figcaption>
+                  </figure>
+              </div>
+
+              <div class="pics_init">
+                  <figure id="picf4">
+                      <img src="images/bookView_final.png" 
+                          alt="Screenshot from the Book View where users can read and add highlights or comments from final design" />
+                      <figcaption>Our final design of our "Book View" page</figcaption>
+                  </figure>
+              </div>
+            </div>
+            <p>To look at the prototype of our final design interactively, you can click on the link: 
+              <a href="https://www.figma.com/proto/innmEVcxPyrC9LQ6DgX4yM/User-Stories?page-id=626%3A68&node-id=626%3A376&viewport=352%2C220%2C0.12533512711524963&scaling=scale-down" target="_blank">Final Desing Prototype on Figma</a>  
+            </p>
         </div>
       </section>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     
   </body>
