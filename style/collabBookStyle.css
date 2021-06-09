@@ -116,7 +116,6 @@ section.section2 h2{
 
 .PictureDiv{
     padding-top: 20px;
-    /* height: 300px; */
 }
 
 .PictureDiv::after{
@@ -129,12 +128,10 @@ section.section2 h2{
     display: block;
     width: 180px;
     height: 350px;
-    margin-left: 50px;
 }
 
 .PictureDiv figcaption{
     font-size: 75%;
-    margin-left: 50px;
 }
 
 
