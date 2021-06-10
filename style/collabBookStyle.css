@@ -58,6 +58,14 @@ header h2{
     height: auto;
 }
 
+#iterationPic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: auto;
+}
+
 
 #firstSection p{
     font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
@@ -73,8 +81,13 @@ header h2{
     font-size: 200%;
 }
 
+section.section1 h2{
+    font-size: 40px;
+    color: rgb(124, 31, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+}
 section.section2 h2{
-    font-size: 30px;
+    font-size: 40px;
     /* text-decoration-color: cadetblue"; */
     color: rgb(124, 31, 10);
     font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
@@ -186,7 +199,7 @@ section.section2 p{
 
 footer {
     padding: 20px 0;
-    background-color: #575fcf;
+    background-color: rgb(102, 39, 14);
     color: white;
     text-align: center;
 }
