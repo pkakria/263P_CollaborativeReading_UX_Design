@@ -33,5 +33,5 @@ class project on UX design of CollaborativeReading
 * https://getbootstrap.com/docs/4.6/getting-started/introduction/
 * https://www.udemy.com/course/portfolio-website/
 
-### Our project passed the validation check, please refer to the screenshots
+### Our project passed the validation check, please refer to the screenshots attached (valid-html.jpg, valid-css.jpg, valid-accessibility.jpg)
 
