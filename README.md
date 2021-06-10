@@ -32,3 +32,6 @@ class project on UX design of CollaborativeReading
 ## List of online sources we referred
 * https://getbootstrap.com/docs/4.6/getting-started/introduction/
 * https://www.udemy.com/course/portfolio-website/
+
+### Our project passed the validation check, please refer to the screenshot 
+
