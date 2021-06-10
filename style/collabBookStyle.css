@@ -155,14 +155,23 @@ section.section2 p{
     color: rgb(34, 109, 139)
 }
 
+.sketches-pics {
+    text-align: center;
+}
+
 .sketches-pics img{
-    display: block;
+    display: inline-block;
     height: 345px;
     width: auto;
     max-width: 90vw;
 }
+
+.users-pics {
+    text-align: center;
+}
+
 .users-pics img{
-    display: block;
+    display: inline-block;
     height: auto;
     width: 80vw;
     max-width: 1000px;
@@ -200,4 +209,13 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: grey;
+}
+
+.center {
+    text-align: center;
+}
+
+.cell {
+    display:table-cell;
+    text-align: center;
 }
