@@ -7,6 +7,9 @@ body {
     background-color:rgb(255, 255, 255);
     background-position: center;
     /* font-family: Georgia, Times, serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 75, 75);
+    font-size:20px;
     line-height: 1.4em;
     margin: 0px;
     /* background-image: url("../images/blue-wallpaper.jpg"); */
@@ -51,6 +54,7 @@ header h2{
     font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
     text-decoration:double;
     text-align: left;
+    color: rgb(78, 75, 75);
     /* p1{
     font-size:50px;} */
       font-size:20px;
@@ -66,10 +70,17 @@ section.section2 h2{
     color: rgb(124, 31, 10);
     font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
 }
+section.section2 p{
+    font-size: 20px;
+    /* text-decoration-color: cadetblue"; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 75, 75);
+}
 
 #initIdea p{
     font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
-    color: rgb(53, 47, 47);
+    font-size:20px;
+    color: rgb(78, 75, 75);
 }
 
 #navigation {
@@ -131,7 +142,8 @@ section.section2 h2{
 }
 
 .PictureDiv figcaption{
-    font-size: 75%;
+    font-size: 100%;
+    color: rgb(34, 109, 139)
 }
 
 .sketches-pics img{
@@ -143,4 +155,11 @@ section.section2 h2{
     display: block;
     height: 200px;
     width: auto;
+}
+
+.personas img{
+    display: block;
+    height: 300px;
+    width: auto;
+    padding: 5px
 }
