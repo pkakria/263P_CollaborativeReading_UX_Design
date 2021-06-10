@@ -102,7 +102,7 @@ section.section2 p{
 }
 
 #navigation li a:hover {
-	color: white;
+	color: grey;
 }
 
 .navbar-brand {
@@ -150,11 +150,13 @@ section.section2 p{
     display: block;
     height: 345px;
     width: auto;
+    max-width: 90vw;
 }
 .users-pics img{
     display: block;
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 80vw;
+    max-width: 1000px;
 }
 
 .personas img{
@@ -162,4 +164,31 @@ section.section2 p{
     height: 300px;
     width: auto;
     padding: 5px
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #575fcf;
+    color: white;
+    text-align: center;
+}
+
+.github-img {
+        margin: 10px 10px;
+        width: 40px;
+        height: 40px;
+        color: white;
+}
+
+.github {
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: grey;
 }
