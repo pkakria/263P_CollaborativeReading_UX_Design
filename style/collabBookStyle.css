@@ -99,6 +99,13 @@ section.section2 p{
     color: rgb(78, 75, 75);
 }
 
+section.section2 ul{
+    font-size: 20px;
+    /* text-decoration-color: cadetblue"; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 75, 75);
+}
+
 #initIdea p{
     font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
     font-size:20px;
