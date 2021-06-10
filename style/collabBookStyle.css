@@ -50,6 +50,15 @@ header h2{
     height: auto;
 }
 
+#initIdea img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: auto;
+}
+
+
 #firstSection p{
     font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
     text-decoration:double;
